@@ -1,8 +1,11 @@
 {
   "name": "ajv-content-encoding",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Add contentEncoding support to AJV",
-  "keywords": ["ajv", "contentEncoding"],
+  "keywords": [
+    "ajv",
+    "contentEncoding"
+  ],
   "main": "index.js",
   "repository": "https://github.com/remko/ajv-content-encoding",
   "author": "Remko Tronçon",
