@@ -1,0 +1,25 @@
+{
+  "name": "ajv-content-encoding",
+  "version": "1.0.0",
+  "description": "Add contentEncoding support to AJV",
+  "main": "index.js",
+  "repository": "https://github.com/remko/ajv-content-encoding",
+  "author": "Remko Tronçon",
+  "license": "MIT",
+  "private": false,
+  "peerDependencies": {
+    "ajv": "^6.0.0"
+  },
+  "devDependencies": {
+    "ajv": "^6.0.0",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2",
+    "nyc": "^14.1.1"
+  },
+  "scripts": {
+    "test": "mocha",
+    "test-coverage": "nyc mocha",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls",
+    "lint": "eslint ."
+  }
+}
