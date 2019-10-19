@@ -23,3 +23,11 @@ or
 
     validate("aGVsbG8K"); // true
     validate("invalid"); // false
+
+
+## Caveats
+
+- The values of `contentEncoding` should be all-lowercase, and are case-sensitive
+  (i.e. `base64`, `7bit`, `8bit`, `binary`, and `quoted-printable`).
+- The `quoted-printable` validation does not validate all constraints on quoted-printable encodings. 
+  E.g., it is more forgiving in when to allow newline characters etc.
