@@ -1,7 +1,10 @@
-# [ajv-content-encoding](https://el-tramo.be/ajv-content-encoding): contentEncoding support for AJV
+# ajv-content-encoding: Plugin for `contentEncoding` validation in AJV
 
 Adds support to [AJV](https://github.com/epoberezkin/ajv) for validating 
 strings with [`contentEncoding`](https://json-schema.org/draft-07/json-schema-validation.html#rfc.section.8).
+
+Supports the types defined in [RFC2045](https://tools.ietf.org/html/rfc2045#section-6.1): 
+`base64`, `7bit`, `8bit`, `binary`, and `quoted-printable`.
 
 ## Install
 
